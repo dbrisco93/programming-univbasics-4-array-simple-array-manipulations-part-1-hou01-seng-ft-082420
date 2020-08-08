@@ -6,4 +6,6 @@ def using_unshift(bouroughs_in_nyc, string)
   bouroughs_in_nyc.unshift("Staten Island")
 end
 
-def using_pop(Array)
+def using_pop(continents)
+  continents.pop
+end
